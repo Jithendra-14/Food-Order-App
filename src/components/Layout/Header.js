@@ -42,7 +42,7 @@ const Header = (props) => {
           <Typography variant="h4" component="h1" className={classes.title}>
             ReactMeals
           </Typography>
-          <HeaderCartButton />
+          <HeaderCartButton onClick={props.onShowCart} />
         </Toolbar>
       </AppBar>
       <Box className={classes.mainImage}>
